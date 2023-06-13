@@ -4,7 +4,7 @@
     </div>
 
     <!--Container-->
-    <div class="container w-full md:w-4/5 xl:w-3/5  mx-auto px-2">
+    <div class="w-full md:w-4/5 mx-auto px-2">
         <!--Title-->
         <h1 class="title m-2 flex items-center font-sans font-bold break-normal text-indigo-500 text-xl md:text-2xl">
             CRUD SUBSCRIBERS
@@ -42,16 +42,16 @@
                                         <div class="mr-2">
                                             <img class="w-6 h-6 rounded-full" src="https://randomuser.me/api/portraits/men/{{$item->id}}.jpg"/>
                                         </div>
-                                        <span>{{$item->lastname}}</span>
+                                        <span>{{$item->firstname}}</span>
                                     </div>
                                 </td>
 
                                 <td class="py-3 px-6 text-center">
-                                    <span>{{$item->firstname}}</span>
+                                    <span>{{$item->middlename}}</span>
                                 </td>
 
                                 <td class="py-3 px-6 text-center">
-                                    <span>{{$item->middlename}}</span>
+                                    <span>{{$item->lastname}}</span>
                                 </td>
 
                                 <td class="py-3 px-6 text-center">

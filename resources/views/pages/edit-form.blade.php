@@ -16,7 +16,7 @@
                     </label>
                     </div>
                     <div>
-                    <input required class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="firstname" name="firstname" value={{$firstname}} type="text">
+                    <input required class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="firstname" name="firstname" value="{{$firstname}}" type="text">
                     </div>
                 </div>
                 <div class="mb-6">
@@ -33,7 +33,7 @@
                     </label>
                     </div>
                     <div>
-                    <input required class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" value={{$middlename}} id="middlename" name="middlename" type="text">
+                    <input required class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" value="{{$middlename}}" id="middlename" name="middlename" type="text">
                     </div>
                 </div>
                 <div class="mb-6">
@@ -50,7 +50,7 @@
                     </label>
                 </div>
                 <div>
-                    <input required class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" value={{$lastname}} id="lastname" name="lastname" type="text" >
+                    <input required class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" value="{{$lastname}}" id="lastname" name="lastname" type="text" >
                 </div>
                 </div>
                 <div class="mb-6">
@@ -67,7 +67,7 @@
                     </label>
                     </div>
                     <div>
-                    <input required class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" value={{$address}} id="address" name="address" type="text">
+                    <input required class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" value="{{$address}}" id="address" name="address" type="text">
                     </div>
                 </div>
                 <div class="mb-6">
